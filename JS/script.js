@@ -2,23 +2,23 @@
     'use strict';
 }());
 
-console.log('arr' + " - object");
-console.log(4 + +"5");
+const str = "test";
 
-let incr = 10,
-    decr = 10;
+console.log(str.toUpperCase());
+console.log(str);
 
-// incr++;
-// decr--;
+const fruit = "Some fruit";
 
-console.log(incr);
-console.log(decr);
+console.log(fruit.indexOf("fruit"));
 
-console.log(5%2);
+const logg = "Hello World!";
 
-console.log(2 + 2 * 2 === 6);
+// console.log(logg.slice(1, 9));
 
-const isChecked = true,
-        isClose = true;
+// console.log(logg.substring(1, 9));
 
-    console.log(isChecked && isClose);
+console.log(logg.substr(1, 5));
+
+
+const num = 12.499;
+console.log(Math.round(num));
